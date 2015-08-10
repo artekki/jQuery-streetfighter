@@ -47,10 +47,7 @@ body {
 	background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
-.hadouken,
-.ryu-ready,
-.ryu-still,
-.ryu-throwing {
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
 }
 
@@ -58,7 +55,7 @@ body {
 	background-image: url('../images/hadouken.gif');
 	width: 156px;
 	height:90px;
-	/*display: none;*/
+	display: none;
 	float: left;
 	position: absolute;
 	z-index: 10;
@@ -67,6 +64,6 @@ body {
 }
 
 
-* {
-	outline: red 1px solid;
-}
+/**** * {
+	outline: red 1px solid; 
+}****/
